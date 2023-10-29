@@ -1,0 +1,40 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Computer Science",
+      "faculty": "Computing and Information Technology",
+      "duration": "4 years",
+      "available_colleges": ["Moringa Comp CBD", "Moringa IT Kikuyu"],
+      "course_description": "A comprehensive program in computer science.",
+      "poster_image": "https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y29tcHV0ZXIlMjBzY2llbmNlfGVufDB8fDB8fHww&w=1000&q=80"
+    },
+    {
+      "id": "2",
+      "title": "Business Administration",
+      "faculty": "Business and Management",
+      "duration": "3 years",
+      "available_colleges": ["Moringa Business Karen", "Moringa Business Mombasa"],
+      "course_description": "Learn management and business skills.",
+      "poster_image": "https://businessadmin.uonbi.ac.ke/sites/businessadmin.uonbi.ac.ke/files/inline-images/businessadminimage.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Engineering",
+      "faculty": "Natural Sciences and Engineering",
+      "duration": "4 years",
+      "available_colleges": ["Moringa Engineering Silo A", "Vincent Engineering College E"],
+      "course_description": "Explore the world of biology and life sciences. Most importantly be an assembly mercenary finetuned with the most updated information in Civil, Electrical, Mechanical and Software Engineering",
+      "poster_image": "https://cdn.mos.cms.futurecdn.net/HFUAjfbamNhbM8dsNSQW3D.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Commerce",
+      "faculty": "Business and Management",
+      "duration": "4 years",
+      "available_colleges": ["Moringa Business Karen", "Moringa Business Mombasa"],
+      "course_description": "Learn management and business skills.",
+      "poster_image": "https://cdn1.byjus.com/wp-content/uploads/2022/09/Commerce.webp"
+    }
+  ]
+}

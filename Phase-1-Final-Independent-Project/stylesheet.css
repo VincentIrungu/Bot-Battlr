@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/2264699/pexels-photo-2264699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f00;
+  }
+  
+  .container {
+    max-width: 600px; /* Decreased max-width */
+    margin: 0 auto;
+    background-color: #f5f5f5; /* Smoky white background */
+    padding: 15px; /* Decreased padding */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #ccc;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  #courses {
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Styles for the course div box */
+  .course-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures images don't overflow their containers */
+    position: relative;
+  }
+  
+  .poster-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s; /* Add a transition for smooth zoom effect */
+  }
+  
+  .poster-image:hover {
+    transform: scale(1.1); /* Zoom out by 10% when hovering */
+  }
+  
+  .course-title {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .course-faculty {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .course-duration {
+    font-size: 1rem;
+    color: #444;
+    margin: 5px 0;
+  }
+  
+  .course-description {
+    font-size: 1rem;
+    line-height: 1.3;
+    margin: 10px 0;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .course-box {
+      margin: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .course-box {
+      margin: 5px;
+    }
+  }

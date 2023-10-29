@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <title>College Qualifier Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>COURSE COMPASS</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>SUBJECT</th>
+            <th>MARKS</th>
+            <th>GRADE</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>MATHEMATICS</td>
+            <td>
+              <input type="number" class="subject-marks" min="0" max="100" />
+            </td>
+            <td class="subject-grade"></td>
+          </tr>
+          <tr>
+            <td>PHYSICS</td>
+            <td>
+              <input type="number" class="subject-marks" min="0" max="100" />
+            </td>
+            <td class="subject-grade"></td>
+          </tr>
+          <tr>
+            <td>CHEMISTRY</td>
+            <td>
+              <input type="number" class="subject-marks" min="0" max="100" />
+            </td>
+            <td class="subject-grade"></td>
+          </tr>
+          <tr>
+            <td>BIOLOGY</td>
+            <td>
+              <input type="number" class="subject-marks" min="0" max="100" />
+            </td>
+            <td class="subject-grade"></td>
+          </tr>
+          <tr>
+            <td>HISTORY</td>
+            <td>
+              <input type="number" class="subject-marks" min="0" max="100" />
+            </td>
+            <td class="subject-grade"></td>
+          </tr>
+          <tr>
+            <td>RELIGIOUS EDUCATION</td>
+            <td>
+              <input type="number" class="subject-marks" min="0" max="100" />
+            </td>
+            <td class="subject-grade"></td>
+          </tr>
+          <tr>
+            <td>LANGUAGE</td>
+            <td>
+              <input type="number" class="subject-marks" min="0" max="100" />
+            </td>
+            <td class="subject-grade"></td>
+          </tr>
+          <!-- Repeat this row for other subjects -->
+        </tbody>
+      </table>
+
+      <button id="calculate-button">Calculate</button>
+
+      <div id="results">
+        <p>TOTAL MARKS SCORED: <span id="total-marks">0</span></p>
+        <p>MEAN MARK: <span id="mean-marks">N/A</span></p>
+        <p>AVERAGE GRADE: <span id="average-grade">N/A</span></p>
+        <p>COMPASS STATUS: <span id="status">N/A</span></p>
+      </div>
+
+      <div id="courses" class="hidden">
+        <h2>Available Courses</h2>
+        <ul id="course-list">
+          <!-- Course data will be displayed here -->
+        </ul>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
